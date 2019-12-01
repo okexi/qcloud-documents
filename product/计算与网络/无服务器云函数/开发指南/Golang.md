@@ -115,7 +115,7 @@ GOOS=linux GOARCH=amd64 go build -o main main.go
 zip main.zip main
 ```
 
-在 Windows 下可使用如下命令编译，然后使用打包工具对输出的二进制文件进行打包，二进制文件需要在 zip 包根目录。
+在 Windows 下可使用如下命令编译，注意请使用cmd，powershell下这个命名无效，然后使用打包工具对输出的二进制文件进行打包，二进制文件需要在 zip 包根目录。
 
 ```
 set GOOS=linux
